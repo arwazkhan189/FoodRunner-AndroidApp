@@ -4,7 +4,7 @@
 FoodRunner android App Based on the concept of Fragment, Navigation Drawer, Database (Room), Internet Access, Shared preferences, API Calling, etc...
 
 
-### See the app online [Click here](https://appetize.io/embed/wyy2dn77g8rp36k372caedrkew?device=nexus5&scale=75&orientation=portrait&osVersion=8.1)
+### See the app online [Click here](https://appetize.io/embed/7qhra237dcfgmzft9gtcd12r98?device=nexus5&scale=75&orientation=portrait&osVersion=8.1)
 
 ### Download the App [Click here](https://github.com/arwazkhan189/FoodRunner-AndroidApp/blob/master/app/release/app-release.apk)
 
