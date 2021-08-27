@@ -1,7 +1,7 @@
 <img  align="left" height='100' src="https://github.com/arwazkhan189/FoodRunner-AndroidApp/blob/master/Screenshots/foodrunner.png"> 
 
 # FoodRunner-AndroidApp
-FoodRunner ndroid App Based on the concept of Fragment, Navigation Drawer, Database (Room), Internet Access, Shared preferences, API Calling etc...
+FoodRunner android App Based on the concept of Fragment, Navigation Drawer, Database (Room), Internet Access, Shared preferences, API Calling, etc...
 
 
 ### See the app online [Click here](https://appetize.io/embed/wyy2dn77g8rp36k372caedrkew?device=nexus5&scale=75&orientation=portrait&osVersion=8.1)
