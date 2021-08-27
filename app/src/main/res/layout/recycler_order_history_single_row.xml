@@ -60,7 +60,6 @@
         android:layout_below="@+id/recyclerViewOrderHistoryItems"
         android:layout_marginStart="140dp"
         android:layout_marginTop="5dp"
-        android:layout_marginEnd="25dp"
         android:layout_toEndOf="@+id/txtTotal"
         android:padding="5dp"
         android:text="@string/_1"
@@ -71,7 +70,7 @@
     <View
         android:layout_width="match_parent"
         android:layout_height="1dp"
-        android:layout_below="@id/txtTotal"
+        android:layout_below="@id/txtTotalCost"
         android:layout_marginTop="2dp"
         android:background="@color/gray" />
 
