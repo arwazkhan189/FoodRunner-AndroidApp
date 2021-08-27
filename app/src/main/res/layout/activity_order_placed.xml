@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".activity.OrderPlacedActivity">
+
+    <ImageView
+        android:id="@+id/imgOrderDone"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_centerInParent="true"
+        android:background="@color/background"
+        android:contentDescription="@string/image"
+        android:src="@drawable/ic_order_done" />
+
+    <ImageView
+        android:id="@+id/imgOrderCircle"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:layout_centerInParent="true"
+        android:contentDescription="@string/image"
+        android:src="@drawable/ic_order_circle"
+        android:translationZ="10dp" />
+
+
+    <TextView
+        android:id="@+id/txtOrderDone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imgOrderCircle"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="@string/your_order_has_been_successfully_placed"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnOK"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:text="@string/ok"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        app:strokeColor="@color/white"
+        app:strokeWidth="2dp" />
+
+</RelativeLayout>

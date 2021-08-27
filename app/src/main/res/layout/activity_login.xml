@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:background="@color/background"
     android:orientation="vertical"
-    tools:context=".LoginActivity">
+    tools:context=".activity.LoginActivity">
 
     <ImageView
         android:id="@+id/imgLogo"
@@ -24,7 +24,7 @@
         android:layout_marginLeft="15dp"
         android:layout_marginTop="30dp"
         android:layout_marginRight="15dp"
-        android:background="@color/white"
+        android:background="@drawable/rounded_border_for_view"
         android:drawableStart="@drawable/ic_baseline_smartphone_24"
         android:drawablePadding="6dp"
         android:hint="@string/mobile_number_10_digit"
@@ -37,14 +37,14 @@
         android:textSize="18sp" />
 
     <EditText
-        android:id="@+id/etPassword"
+        android:id="@+id/etPasswordLogin"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/etMobileNumber"
         android:layout_marginLeft="15dp"
         android:layout_marginTop="30dp"
         android:layout_marginRight="15dp"
-        android:background="@color/white"
+        android:background="@drawable/rounded_border_for_view"
         android:drawableStart="@drawable/ic_baseline_lock_24"
         android:drawablePadding="6dp"
         android:hint="@string/password"
@@ -60,11 +60,11 @@
         android:id="@+id/btnLogin"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/etPassword"
+        android:layout_below="@+id/etPasswordLogin"
         android:layout_marginLeft="15dp"
         android:layout_marginTop="30dp"
         android:layout_marginRight="15dp"
-        android:backgroundTint="@color/login_btn_color"
+        android:backgroundTint="@color/red"
         android:padding="10dp"
         android:text="@string/login"
         android:textSize="18sp" />
