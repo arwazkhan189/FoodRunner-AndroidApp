@@ -1,6 +1,7 @@
 <img  align="left" height='100' src="https://github.com/arwazkhan189/FoodRunner-AndroidApp/blob/master/Screenshots/foodrunner.png"> 
 
 # FoodRunner-AndroidApp
+Food Runner app is a basic food ordering app like zomato , swiggy, etc.
 FoodRunner android App Based on the concept of Fragment, Navigation Drawer, Database (Room), Internet Access, Shared preferences, API Calling, etc...
 
 
